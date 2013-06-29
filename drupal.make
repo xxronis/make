@@ -57,7 +57,8 @@ projects[wysiwyg][type] = "module"
 
 ; Themes
 ; --------
-projects[] = bootstrap
+projects[bootstrap][version] = 7.x-2.1
+projects[bootstrap][type] = "theme"
 
   
   
