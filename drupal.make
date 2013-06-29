@@ -40,24 +40,29 @@ projects[token][version] = 1.5
 projects[token][type] = "module"
 projects[views][version] = 3.7
 projects[views][type] = "module"
-projects[cck][version] = 7.x-2.x-dev
+projects[cck][version] = 2.x-dev
 projects[cck][type] = "module"
-projects[metatag][version] = 7.x-1.0-beta7
+projects[metatag][version] = 1.0-beta7
 projects[metatag][type] = "module"
-projects[menu_block][version] = 7.x-2.3
+projects[menu_block][version] = 2.3
 projects[menu_block][type] = "module"
-projects[jquery_update][version] = 7.x-2.3-alpha1+0-dev
+projects[jquery_update][version] = 2.3-alpha1+0-dev
 projects[jquery_update][type] = "module"  
-projects[ctools][version] = 7.x-1.3
+projects[ctools][version] = 1.3
 projects[ctools][type] = "module"
-projects[jquery_ui][version] = 7.x-1.x-dev
+projects[jquery_ui][version] = 1.x-dev
 projects[jquery_ui][type] = "module"
-projects[wysiwyg][version] = 7.x-2.2
+projects[wysiwyg][version] = 2.2
 projects[wysiwyg][type] = "module"
+
+projects[responsive][type] = "profile"
+projects[responsive][download][type] = git
+projects[responsive][download][url] = git://github.com/xxronis/responsive.git
+projects[responsive][download][branch] = master
 
 ; Themes
 ; --------
-projects[bootstrap][version] = 7.x-2.1
+projects[bootstrap][version] = 2.1
 projects[bootstrap][type] = "theme"
 
   
