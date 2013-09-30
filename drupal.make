@@ -45,7 +45,6 @@ projects[menu_block][type] = "module"
 ;git commit details:
 ;jQuery Update: May 1, 2013 22:10
 projects[jquery_update][type] = module
-projects[jquery_update][subdir] = contrib
 projects[jquery_update][download][type] = git
 projects[jquery_update][download][revision] = dd3d76e
 projects[jquery_update][download][url] = git://git.drupalcode.org/project/jquery_update.git
