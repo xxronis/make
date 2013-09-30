@@ -2,28 +2,26 @@
 ; ------------
 ; Each makefile should begin by declaring the core version of Drupal that all
 ; projects should be compatible with.
-  
+
 core = 7.x
-  
+
 ; API version
 ; ------------
 ; Every makefile needs to declare its Drush Make API version. This version of
 ; drush make uses API version `2`.
-  
+
 api = 2
-  
+
 ; Core project
 ; ------------
 ; In order for your makefile to generate a full Drupal site, you must include
 ; a core project. This is usually Drupal core, but you can also specify
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
-  
+
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
 projects[drupal][version] = 7
 
-  
-  
 ; Modules
 ; --------
 projects[admin_menu][version] = 3.0-rc4
@@ -40,18 +38,21 @@ projects[token][version] = 1.5
 projects[token][type] = "module"
 projects[views][version] = 3.7
 projects[views][type] = "module"
-projects[cck][version] = 2.x-dev
-projects[cck][type] = "module"
 projects[metatag][version] = 1.0-beta7
 projects[metatag][type] = "module"
 projects[menu_block][version] = 2.3
 projects[menu_block][type] = "module"
-projects[jquery_update][version] = 2.x-dev
-projects[jquery_update][type] = "module"  
+;git commit details:
+;jQuery Update: May 1, 2013 22:10
+projects[jquery_update][type] = module
+projects[jquery_update][subdir] = contrib
+projects[jquery_update][download][type] = git
+projects[jquery_update][download][revision] = dd3d76e
+projects[jquery_update][download][url] = git://git.drupalcode.org/project/jquery_update.git
+
 projects[ctools][version] = 1.3
 projects[ctools][type] = "module"
-projects[jquery_ui][version] = 1.x-dev
-projects[jquery_ui][type] = "module"
+
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg][type] = "module"
 
@@ -65,8 +66,6 @@ projects[responsive][download][branch] = master
 projects[bootstrap][version] = 2.1
 projects[bootstrap][type] = "theme"
 
-  
-  
 ; Libraries
 ; ---------
 ; No libraries were included
