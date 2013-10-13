@@ -52,9 +52,15 @@ projects[jquery_update][download][url] = git://git.drupalcode.org/project/jquery
 projects[ctools][version] = 1.3
 projects[ctools][type] = "module"
 
-projects[wysiwyg][version] = 2.2
-projects[wysiwyg][type] = "module"
+; projects[wysiwyg][version] = 2.2
+; projects[wysiwyg][type] = "module"
+; Editor
+; ------------------
+projects[ckeditor][version] = 1.13
+projects[ckeditor][type] = "module"
 
+; Responsive profile
+; ------------------
 projects[responsive][type] = "profile"
 projects[responsive][download][type] = git
 projects[responsive][download][url] = git://github.com/xxronis/responsive.git
@@ -67,5 +73,8 @@ projects[bootstrap][type] = "theme"
 
 ; Libraries
 ; ---------
-; No libraries were included
+; CKEditor 4.2.1
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.1/ckeditor_4.2.1_full.zip
+ 
 
