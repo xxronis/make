@@ -20,7 +20,7 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7
+projects[drupal][version] = 7.23
 
 ; Modules
 ; --------
@@ -51,7 +51,8 @@ projects[jquery_update][download][url] = git://git.drupalcode.org/project/jquery
 
 projects[ctools][version] = 1.3
 projects[ctools][type] = "module"
-
+projects[transliteration][type] = "module"
+projects[transliteration][version] = 3.1
 ; projects[wysiwyg][version] = 2.2
 ; projects[wysiwyg][type] = "module"
 ; Editor
@@ -68,7 +69,7 @@ projects[responsive][download][branch] = master
 
 ; Themes
 ; --------
-projects[bootstrap][version] = 2.1
+projects[bootstrap][version] = 2.2
 projects[bootstrap][type] = "theme"
 
 ; Libraries
@@ -76,5 +77,7 @@ projects[bootstrap][type] = "theme"
 ; CKEditor 4.2.1
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.1/ckeditor_4.2.1_full.zip
- 
 
+; font-awesome CDN
+;libraries[font-awesome][download][type] = get
+;libraries[font-awesome][download][url] = http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css
