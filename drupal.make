@@ -20,7 +20,7 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.25
+projects[drupal][version] = 7.26
 
 ; Modules
 ; --------
@@ -38,17 +38,14 @@ projects[token][version] = 1.5
 projects[token][type] = "module"
 projects[views][version] = 3.7
 projects[views][type] = "module"
-projects[metatag][version] = 1.0-beta7
+projects[metatag][version] = 1.0-beta9
 projects[metatag][type] = "module"
+projects[field_collection][version] = 1.0-beta5
+projects[field_collection][type] = "module"
 projects[menu_block][version] = 2.3
 projects[menu_block][type] = "module"
-;git commit details:
-;jQuery Update: May 1, 2013 22:10
-projects[jquery_update][type] = module
-projects[jquery_update][download][type] = git
-projects[jquery_update][download][revision] = dd3d76e
-projects[jquery_update][download][url] = git://git.drupalcode.org/project/jquery_update.git
-
+projects[jquery_update][version] = 2.3
+projects[jquery_update][type] = "module"
 projects[ctools][version] = 1.3
 projects[ctools][type] = "module"
 projects[transliteration][type] = "module"
@@ -57,6 +54,10 @@ projects[transliteration][version] = 3.1
 ; projects[wysiwyg][type] = "module"
 ; Editor
 ; ------------------
+
+projects[views_bootstrap][version] = 2.0
+projects[views_bootstrap][type] = "module"
+
 projects[ckeditor][version] = 1.13
 projects[ckeditor][type] = "module"
 
@@ -69,7 +70,7 @@ projects[responsive][download][branch] = master
 
 ; Themes
 ; --------
-projects[bootstrap][version] = 2.2
+projects[bootstrap][version] = 3.0
 projects[bootstrap][type] = "theme"
 
 ; Libraries
