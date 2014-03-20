@@ -40,7 +40,7 @@ projects[views][version] = 3.7
 projects[views][type] = "module"
 projects[metatag][version] = 1.0-beta9
 projects[metatag][type] = "module"
-projects[field_collection][version] = 1.0-beta5
+projects[field_collection][version] = 1.0-beta7
 projects[field_collection][type] = "module"
 projects[menu_block][version] = 2.3
 projects[menu_block][type] = "module"
@@ -49,7 +49,7 @@ projects[jquery_update][type] = "module"
 projects[ctools][version] = 1.4
 projects[ctools][type] = "module"
 projects[transliteration][type] = "module"
-projects[transliteration][version] = 3.1
+projects[transliteration][version] = 3.2
 ; projects[wysiwyg][version] = 2.2
 ; projects[wysiwyg][type] = "module"
 ; Editor
