@@ -50,6 +50,8 @@ projects[ctools][version] = 1.4
 projects[ctools][type] = "module"
 projects[transliteration][type] = "module"
 projects[transliteration][version] = 3.2
+projects[features][version] = 2.0
+projects[features][type] = "module"
 
 projects[real_config][type] = "module"
 projects[real_config][download][type] = git
