@@ -50,23 +50,29 @@ projects[ctools][version] = 1.4
 projects[ctools][type] = "module"
 projects[transliteration][type] = "module"
 projects[transliteration][version] = 3.2
-; projects[wysiwyg][version] = 2.2
-; projects[wysiwyg][type] = "module"
-; Editor
-; ------------------
+
+projects[real_config][type] = "module"
+projects[real_config][download][type] = git
+projects[real_config][download][url] = git@bitbucket.org:xxronis/real_config.git
+projects[real_config][download][branch] = master
 
 projects[views_bootstrap][version] = 2.0
 projects[views_bootstrap][type] = "module"
 
+projects[real_theme][type] = "theme"
+projects[real_theme][download][type] = git
+projects[real_theme][download][url] = git@bitbucket.org:xxronis/real_theme.git
+projects[real_theme][download][branch] = master
+
 projects[ckeditor][version] = 1.13
 projects[ckeditor][type] = "module"
 
-; Responsive profile
+; getreal profile
 ; ------------------
-projects[responsive][type] = "profile"
-projects[responsive][download][type] = git
-projects[responsive][download][url] = git://github.com/xxronis/responsive.git
-projects[responsive][download][branch] = master
+projects[real_profile][type] = "profile"
+projects[real_profile][download][type] = git
+projects[real_profile][download][url] = git@bitbucket.org:xxronis/real_profile.git
+projects[real_profile][download][branch] = master
 
 ; Themes
 ; --------
