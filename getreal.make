@@ -48,8 +48,10 @@ projects[jquery_update][version] = 2.3
 projects[jquery_update][type] = "module"
 projects[ctools][version] = 1.4
 projects[ctools][type] = "module"
-projects[transliteration][type] = "module"
 projects[transliteration][version] = 3.2
+projects[transliteration][type] = "module"
+projects[adminimal_admin_menu][version] = 1.5
+projects[adminimal_admin_menu][type] = "module"
 projects[features][version] = 2.0
 projects[features][type] = "module"
 
@@ -80,6 +82,8 @@ projects[real_profile][download][branch] = master
 ; --------
 projects[bootstrap][version] = 3.0
 projects[bootstrap][type] = "theme"
+projects[adminimal_theme][version] = 1.2
+projects[adminimal_theme][type] = "theme"
 
 ; Libraries
 ; ---------

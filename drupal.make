@@ -48,10 +48,11 @@ projects[jquery_update][version] = 2.3
 projects[jquery_update][type] = "module"
 projects[ctools][version] = 1.4
 projects[ctools][type] = "module"
-projects[transliteration][type] = "module"
 projects[transliteration][version] = 3.2
-; projects[wysiwyg][version] = 2.2
-; projects[wysiwyg][type] = "module"
+projects[transliteration][type] = "module"
+projects[adminimal_admin_menu][version] = 1.5
+projects[adminimal_admin_menu][type] = "module"
+
 ; Editor
 ; ------------------
 
@@ -72,6 +73,8 @@ projects[responsive][download][branch] = master
 ; --------
 projects[bootstrap][version] = 3.0
 projects[bootstrap][type] = "theme"
+projects[adminimal_theme][version] = 1.2
+projects[adminimal_theme][type] = "theme"
 
 ; Libraries
 ; ---------
