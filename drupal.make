@@ -52,12 +52,14 @@ projects[transliteration][version] = 3.2
 projects[transliteration][type] = "module"
 projects[adminimal_admin_menu][version] = 1.5
 projects[adminimal_admin_menu][type] = "module"
-
+projects[views_bootstrap][version] = 3.1
+projects[views_bootstrap][type] = "module"
+projects[variable][version] = 2.5
+projects[variable][type] = "module"
 ; Editor
 ; ------------------
 
-projects[views_bootstrap][version] = 2.0
-projects[views_bootstrap][type] = "module"
+
 
 projects[ckeditor][version] = 1.13
 projects[ckeditor][type] = "module"

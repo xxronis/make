@@ -54,14 +54,15 @@ projects[adminimal_admin_menu][version] = 1.5
 projects[adminimal_admin_menu][type] = "module"
 projects[features][version] = 2.0
 projects[features][type] = "module"
+projects[variable][version] = 2.5
+projects[variable][type] = "module"
+projects[views_bootstrap][version] = 3.1
+projects[views_bootstrap][type] = "module"
 
 projects[real_config][type] = "module"
 projects[real_config][download][type] = git
 projects[real_config][download][url] = git@bitbucket.org:xxronis/real_config.git
 projects[real_config][download][branch] = master
-
-projects[views_bootstrap][version] = 2.0
-projects[views_bootstrap][type] = "module"
 
 projects[real_theme][type] = "theme"
 projects[real_theme][download][type] = git
