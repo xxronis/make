@@ -20,7 +20,7 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.27
+projects[drupal][version] = 7.28
 
 ; Modules
 ; --------
@@ -36,13 +36,13 @@ projects[pathauto][version] = 1.2
 projects[pathauto][type] = "module"
 projects[token][version] = 1.5
 projects[token][type] = "module"
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 projects[views][type] = "module"
 projects[metatag][version] = 1.0-beta9
 projects[metatag][type] = "module"
 projects[field_collection][version] = 1.0-beta7
 projects[field_collection][type] = "module"
-projects[menu_block][version] = 2.3
+projects[menu_block][version] = 2.4
 projects[menu_block][type] = "module"
 projects[jquery_update][version] = 2.3
 projects[jquery_update][type] = "module"
