@@ -20,7 +20,7 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.28
+projects[drupal][version] = 7.30
 
 ; Modules
 ; --------
@@ -38,7 +38,7 @@ projects[token][version] = 1.5
 projects[token][type] = "module"
 projects[views][version] = 3.8
 projects[views][type] = "module"
-projects[metatag][version] = 1.0-beta9
+projects[metatag][version] = 1.0-rc1
 projects[metatag][type] = "module"
 projects[field_collection][version] = 1.0-beta7
 projects[field_collection][type] = "module"
@@ -52,7 +52,7 @@ projects[transliteration][version] = 3.2
 projects[transliteration][type] = "module"
 projects[adminimal_admin_menu][version] = 1.5
 projects[adminimal_admin_menu][type] = "module"
-projects[features][version] = 2.0
+projects[features][version] = 2.1
 projects[features][type] = "module"
 projects[variable][version] = 2.5
 projects[variable][type] = "module"
@@ -69,7 +69,7 @@ projects[real_theme][download][type] = git
 projects[real_theme][download][url] = git@bitbucket.org:xxronis/real_theme.git
 projects[real_theme][download][branch] = master
 
-projects[ckeditor][version] = 1.14
+projects[ckeditor][version] = 1.15
 projects[ckeditor][type] = "module"
 
 ; getreal profile
@@ -90,7 +90,7 @@ projects[adminimal_theme][type] = "theme"
 ; ---------
 ; CKEditor 4.2.1
 libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2.1/ckeditor_4.2.1_full.zip
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.3/ckeditor_4.4.3_full.zip
 
 ; font-awesome CDN
 ;libraries[font-awesome][download][type] = get
