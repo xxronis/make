@@ -94,6 +94,9 @@ projects[adminimal_theme][type] = "theme"
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.3/ckeditor_4.4.3_full.zip
 
+; Performance DEV
+projects[memcache][version] = 1.0
+projects[memcache][type] = "module"
 ; font-awesome CDN
 ;libraries[font-awesome][download][type] = get
 ;libraries[font-awesome][download][url] = http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css
