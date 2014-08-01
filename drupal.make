@@ -58,11 +58,11 @@ projects[variable][version] = 2.5
 projects[variable][type] = "module"
 ; Editor
 ; ------------------
-
-
-
 projects[ckeditor][version] = 1.15
 projects[ckeditor][type] = "module"
+
+projects[imce][version] = 1.9
+projects[imce][type] = "module"
 
 ; Responsive profile
 ; ------------------
@@ -75,7 +75,7 @@ projects[responsive][download][branch] = master
 ; --------
 projects[bootstrap][version] = 3.0
 projects[bootstrap][type] = "theme"
-projects[adminimal_theme][version] = 1.16
+projects[adminimal_theme][version] = 1.17
 projects[adminimal_theme][type] = "theme"
 
 ; Libraries

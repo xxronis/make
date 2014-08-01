@@ -68,10 +68,12 @@ projects[real_theme][type] = "theme"
 projects[real_theme][download][type] = git
 projects[real_theme][download][url] = git@bitbucket.org:xxronis/real_theme.git
 projects[real_theme][download][branch] = master
-
+; Editors
+; ------------------
 projects[ckeditor][version] = 1.15
 projects[ckeditor][type] = "module"
-
+projects[imce][version] = 1.9
+projects[imce][type] = "module"
 ; getreal profile
 ; ------------------
 projects[real_profile][type] = "profile"
@@ -83,7 +85,7 @@ projects[real_profile][download][branch] = master
 ; --------
 projects[bootstrap][version] = 3.0
 projects[bootstrap][type] = "theme"
-projects[adminimal_theme][version] = 1.16
+projects[adminimal_theme][version] = 1.17
 projects[adminimal_theme][type] = "theme"
 
 ; Libraries
