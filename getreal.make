@@ -20,7 +20,7 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.31
+projects[drupal][version] = 7.32
 
 ; Modules
 ; --------
@@ -38,7 +38,7 @@ projects[token][version] = 1.5
 projects[token][type] = "module"
 projects[views][version] = 3.8
 projects[views][type] = "module"
-projects[metatag][version] = 1.0-rc2
+projects[metatag][version] = 1.4
 projects[metatag][type] = "module"
 projects[field_collection][version] = 1.0-beta7
 projects[field_collection][type] = "module"
@@ -70,7 +70,7 @@ projects[real_theme][download][url] = git@bitbucket.org:xxronis/real_theme.git
 projects[real_theme][download][branch] = master
 ; Editors
 ; ------------------
-projects[ckeditor][version] = 1.15
+projects[ckeditor][version] = 1.16
 projects[ckeditor][type] = "module"
 projects[imce][version] = 1.9
 projects[imce][type] = "module"
@@ -85,7 +85,7 @@ projects[real_profile][download][branch] = master
 ; --------
 projects[bootstrap][version] = 3.0
 projects[bootstrap][type] = "theme"
-projects[adminimal_theme][version] = 1.17
+projects[adminimal_theme][version] = 1.18
 projects[adminimal_theme][type] = "theme"
 
 ; Libraries
