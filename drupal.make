@@ -58,6 +58,10 @@ projects[views_bootstrap][version] = 3.1
 projects[views_bootstrap][type] = "module"
 projects[variable][version] = 2.5
 projects[variable][type] = "module"
+projects[single_image][version] = 1.1
+projects[single_image][type] = "module"
+projects[entity_view_mode][version] = 1.0-rc1
+projects[entity_view_mode][type] = "module"
 ; Editor
 ; ------------------
 projects[ckeditor][version] = 1.16
