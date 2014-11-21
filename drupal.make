@@ -26,7 +26,7 @@ projects[drupal][version] = 7.34
 ; --------
 projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][type] = "module"
-projects[date][version] = 2.6
+projects[date][version] = 2.8
 projects[date][type] = "module"
 projects[devel][version] = 1.5
 projects[devel][type] = "module"
