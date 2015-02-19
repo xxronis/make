@@ -24,7 +24,7 @@ projects[drupal][version] = 7.34
 
 ; Modules
 ; --------
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][type] = "module"
 projects[date][version] = 2.8
 projects[date][type] = "module"
@@ -46,9 +46,9 @@ projects[field_collection][version] = 1.0-beta7
 projects[field_collection][type] = "module"
 projects[menu_block][version] = 2.4
 projects[menu_block][type] = "module"
-projects[jquery_update][version] = 2.4
+projects[jquery_update][version] = 2.5
 projects[jquery_update][type] = "module"
-projects[ctools][version] = 1.5
+projects[ctools][version] = 1.6
 projects[ctools][type] = "module"
 projects[transliteration][version] = 3.2
 projects[transliteration][type] = "module"
@@ -81,7 +81,7 @@ projects[responsive][download][branch] = master
 ; --------
 projects[bootstrap][version] = 3.0
 projects[bootstrap][type] = "theme"
-projects[adminimal_theme][version] = 1.18
+projects[adminimal_theme][version] = 1.20
 projects[adminimal_theme][type] = "theme"
 
 ; Libraries
