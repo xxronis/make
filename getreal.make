@@ -30,11 +30,11 @@ projects[date][version] = 2.8
 projects[date][type] = "module"
 projects[devel][version] = 1.5
 projects[devel][type] = "module"
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 projects[entity][type] = "module"
 projects[pathauto][version] = 1.2
 projects[pathauto][type] = "module"
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 projects[token][type] = "module"
 projects[views][version] = 3.10
 projects[views][type] = "module"
@@ -54,7 +54,7 @@ projects[transliteration][version] = 3.2
 projects[transliteration][type] = "module"
 projects[adminimal_admin_menu][version] = 1.5
 projects[adminimal_admin_menu][type] = "module"
-projects[features][version] = 2.3
+projects[features][version] = 2.4
 projects[features][type] = "module"
 projects[variable][version] = 2.5
 projects[variable][type] = "module"
@@ -64,6 +64,7 @@ projects[single_image][version] = 1.1
 projects[single_image][type] = "module"
 projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][type] = "module"
+projects[rename_admin_paths][type] = "module"
 
 projects[real_config][type] = "module"
 projects[real_config][download][type] = git
@@ -91,7 +92,7 @@ projects[real_profile][download][branch] = master
 ; --------
 projects[bootstrap][version] = 3.0
 projects[bootstrap][type] = "theme"
-projects[adminimal_theme][version] = 1.20
+projects[adminimal_theme][version] = 1.21
 projects[adminimal_theme][type] = "theme"
 
 ; Libraries
