@@ -62,6 +62,10 @@ projects[single_image][version] = 1.1
 projects[single_image][type] = "module"
 projects[entity_view_mode][version] = 1.0-rc1
 projects[entity_view_mode][type] = "module"
+projects[rename_admin_paths][type] = "module"
+projects[ds][type] = "module"
+projects[ds_bootstrap_layouts][version] = 3.x-dev
+projects[ds_bootstrap_layouts][type] = "module"
 ; Editor
 ; ------------------
 projects[ckeditor][version] = 1.16
