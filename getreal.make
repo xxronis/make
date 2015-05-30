@@ -69,6 +69,11 @@ projects[ds][type] = "module"
 projects[ds_bootstrap_layouts][version] = 3.x-dev
 projects[ds_bootstrap_layouts][type] = "module"
 
+projects[real_bs_slides][type] = "module"
+projects[real_bs_slides][download][type] = git
+projects[real_bs_slides][download][url] = git@bitbucket.org:xxronis/real_bs_slides.git
+projects[real_bs_slides][download][branch] = master
+
 projects[real_config][type] = "module"
 projects[real_config][download][type] = git
 projects[real_config][download][url] = git@bitbucket.org:xxronis/real_config.git
