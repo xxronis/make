@@ -20,7 +20,7 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.37
+projects[drupal][version] = 7.38
 
 ; Modules
 ; --------
@@ -38,15 +38,15 @@ projects[token][version] = 1.6
 projects[token][type] = "module"
 projects[views][version] = 3.11
 projects[views][type] = "module"
-projects[metatag][version] = 1.4
+projects[metatag][version] = 1.6
 projects[metatag][type] = "module"
 projects[imagecache_token][type] = "module"
 projects[imagecache_token][version] = 1.x-dev
 projects[field_collection][version] = 1.0-beta7
 projects[field_collection][type] = "module"
-projects[menu_block][version] = 2.5
+projects[menu_block][version] = 2.7
 projects[menu_block][type] = "module"
-projects[jquery_update][version] = 2.5
+projects[jquery_update][version] = 2.6
 projects[jquery_update][type] = "module"
 projects[ctools][version] = 1.7
 projects[ctools][type] = "module"
@@ -54,7 +54,7 @@ projects[transliteration][version] = 3.2
 projects[transliteration][type] = "module"
 projects[adminimal_admin_menu][version] = 1.5
 projects[adminimal_admin_menu][type] = "module"
-projects[features][version] = 2.5
+projects[features][version] = 2.6
 projects[features][type] = "module"
 projects[variable][version] = 2.5
 projects[variable][type] = "module"
@@ -98,7 +98,7 @@ projects[real_profile][download][branch] = master
 
 ; Themes
 ; --------
-projects[bootstrap][version] = 3.0
+projects[bootstrap][version] = 3.1-beta2
 projects[bootstrap][type] = "theme"
 projects[adminimal_theme][version] = 1.21
 projects[adminimal_theme][type] = "theme"
@@ -110,7 +110,7 @@ libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.3/ckeditor_4.4.3_full.zip
 
 ; Performance DEV
-projects[memcache][version] = 1.0
+projects[memcache][version] = 1.5
 projects[memcache][type] = "module"
 ; font-awesome CDN
 ;libraries[font-awesome][download][type] = get
