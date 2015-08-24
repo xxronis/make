@@ -20,7 +20,7 @@ api = 2
 ; install profiles *should not* include a core project.
 
 ; Drupal 7.x. Requires the `core` property to be set to 7.x.
-projects[drupal][version] = 7.38
+projects[drupal][version] = 7.39
 
 ; Modules
 ; --------
@@ -38,21 +38,21 @@ projects[token][version] = 1.6
 projects[token][type] = "module"
 projects[views][version] = 3.11
 projects[views][type] = "module"
-projects[metatag][version] = 1.6
+projects[metatag][version] = 1.7
 projects[metatag][type] = "module"
 projects[imagecache_token][type] = "module"
-projects[imagecache_token][version] = 1.x-dev
+projects[imagecache_token][version] = 1.0-rc1
 projects[field_collection][version] = 1.0-beta7
 projects[field_collection][type] = "module"
 projects[menu_block][version] = 2.7
 projects[menu_block][type] = "module"
 projects[jquery_update][version] = 2.6
 projects[jquery_update][type] = "module"
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 projects[ctools][type] = "module"
 projects[transliteration][version] = 3.2
 projects[transliteration][type] = "module"
-projects[adminimal_admin_menu][version] = 1.5
+projects[adminimal_admin_menu][version] = 1.6
 projects[adminimal_admin_menu][type] = "module"
 projects[features][version] = 2.6
 projects[features][type] = "module"
@@ -98,9 +98,9 @@ projects[real_profile][download][branch] = master
 
 ; Themes
 ; --------
-projects[bootstrap][version] = 3.1-beta2
+projects[bootstrap][version] = 3.1-beta3
 projects[bootstrap][type] = "theme"
-projects[adminimal_theme][version] = 1.21
+projects[adminimal_theme][version] = 1.22
 projects[adminimal_theme][type] = "theme"
 
 ; Libraries
