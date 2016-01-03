@@ -11,4 +11,4 @@ api = 2
 
 ; Drupal core
 ; Specific version
-projects[drupal][version] = 8.0.0-beta15
+projects[drupal][version] = 8.0.0
