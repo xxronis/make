@@ -26,7 +26,7 @@ projects[drupal][version] = 7.41
 ; --------
 projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][type] = "module"
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 projects[date][type] = "module"
 projects[devel][version] = 1.5
 projects[devel][type] = "module"
@@ -38,7 +38,7 @@ projects[token][version] = 1.6
 projects[token][type] = "module"
 projects[views][version] = 3.13
 projects[views][type] = "module"
-projects[metatag][version] = 1.7
+projects[metatag][version] = 1.8
 projects[metatag][type] = "module"
 projects[imagecache_token][type] = "module"
 projects[imagecache_token][version] = 1.0-rc1
